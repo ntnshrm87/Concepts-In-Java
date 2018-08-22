@@ -11,7 +11,7 @@ System.arraycopy() and clone() method. Also it highlights the usage and differen
 4. prep - This project contains two classes X and Y. X consists of a constructor and some variables. Y is the derived class inheriting some variables from X class. 
 There is an additional program in which swapping of strings has been done without using a third variable. 
 
-5. staticNfinal - This project highlights the differences between static and final keyword and therie different use cases.
+5. staticNfinal - This project highlights the differences between static and final keyword and there different use cases.
 
 6. thisnsuper - This project simply explains the difference between this and super i.e. this refers to current instance of the class 
 while super refers to the instance of the parent class from where the current class is derived.
