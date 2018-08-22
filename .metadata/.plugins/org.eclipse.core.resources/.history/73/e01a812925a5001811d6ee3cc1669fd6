@@ -1,0 +1,19 @@
+package finfinfin;
+
+public final class finalfinallyfinalize {
+	
+	public final int fin() {
+		int x = 21;
+		return x;
+	}
+	
+	public static void main(String[] args) {
+		final int n = 0;
+		
+		// n = 200; 
+	    // The final local variable n cannot be assigned. It must be blank and not using a compound assignment
+	    System.out.println("X is: "+x);
+	    
+		System.out.println("Value of n is: " + finalfinallyfinalize.n);
+	}
+}

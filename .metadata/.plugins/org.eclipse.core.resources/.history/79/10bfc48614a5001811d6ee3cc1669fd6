@@ -1,0 +1,13 @@
+package staticNfinal;
+
+public class Test extends outerClass {
+	
+	public static void main(String[] args) {
+		
+		outerClass.nestedStaticClass nSC = new outerClass.nestedStaticClass();
+		nSC.printmsg();
+		
+		
+	}
+	
+}

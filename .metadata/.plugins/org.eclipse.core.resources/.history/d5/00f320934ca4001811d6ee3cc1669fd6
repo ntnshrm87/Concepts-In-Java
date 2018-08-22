@@ -1,0 +1,25 @@
+package prep;
+
+public class swapstrings {
+	
+	static String x = "Nitin";
+	String y = "Sharma";
+	
+	public swapstrings() {
+		// TODO Auto-generated constructor stub
+		
+		System.out.println("Inside constructor... Befor swapping...");
+		System.out.println("x is: " + x);
+		System.out.println("y is: " + y);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Inside main...");
+		swapstrings ss = new swapstrings();
+		int xl = x.length();
+		int yl = ss.y.length();
+		
+	}
+
+}

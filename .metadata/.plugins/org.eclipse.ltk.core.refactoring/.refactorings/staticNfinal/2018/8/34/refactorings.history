@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;staticNfinal.statics&apos; to &apos;outerClass&apos;&#x0A;- Original project: &apos;staticNfinal&apos;&#x0A;- Original element: &apos;staticNfinal.statics&apos;&#x0A;- Renamed element: &apos;staticNfinal.outerClass&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;statics&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;staticNfinal{statics.java[statics" matchStrategy="1" name="outerClass" qualified="false" references="true" similarDeclarations="false" stamp="1534836013622" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,27 @@
+package arrays;
+import java.util.*;
+import java.io.*;
+
+public class ar {
+	public static void main(String args[]) {
+		//Scanner sc = new Scanner(System.in);
+		//System.out.println("Enter the number: ");
+		
+		//int n = sc.nextInt();
+		int[] ar1 = {1,2,3,4,5};
+		int[] ar2 = {1,2,3,1,5};
+		int[] ar3 = {1,2,3,4,5};
+		
+		/*for(int i = 0; i<n; i++)
+			ar[i] = sc.nextInt();
+		
+		for(int i = 0; i<n; i++)
+			System.out.print(ar[i]);*/
+		if(Arrays.equals(ar1, ar2))
+			System.out.println("ar1 same as ar2");
+		
+		if(Arrays.equals(ar1, ar3))
+			System.out.println("ar1 same as ar3");
+		//sc.close();
+	}
+}

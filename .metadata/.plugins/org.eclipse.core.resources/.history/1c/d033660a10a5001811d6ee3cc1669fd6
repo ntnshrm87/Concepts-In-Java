@@ -1,0 +1,8 @@
+package thisnsuper;
+
+public class B extends A{
+	B(){
+		this("");
+		
+	}
+}

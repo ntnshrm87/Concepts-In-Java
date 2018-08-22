@@ -1,0 +1,12 @@
+package staticNfinal;
+
+public class outerClass {
+	public static String msg = "Yeah!!! Its static msg...";
+	
+	public static class innerStaticClass {
+		System.out.println("This is inner static class...");
+		public void printmsg() {
+			
+		}
+	}
+}

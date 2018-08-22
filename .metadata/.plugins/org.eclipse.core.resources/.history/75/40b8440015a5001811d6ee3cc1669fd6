@@ -1,0 +1,17 @@
+package staticNfinal;
+
+public class outerClass {
+	public static String msg = "Yeah!!! Its static msg...";
+	
+	public static class nestedStaticClass {
+		public void printmsg() {
+			System.out.println("This is nested static class and "+ msg);
+		}
+	}
+	
+	public class innerClass{
+		public void printmsg() {
+			System.out.println("This is inner static class and "+ msg);
+		}
+	}
+}

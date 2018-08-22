@@ -1,0 +1,27 @@
+package finfinfin;
+
+public final class finalfinallyfinalize // a final class 
+{
+	static int j = 20;
+	
+	public final int fin() // a final function
+	{
+		int x = 0;
+		// static int x = 21;
+		// Error: Illegal modifier for parameter x; only final is permitted
+		return x;
+	}
+	
+	public static void main(String[] args) {
+		
+		final int n = 20;  // a final variable
+		
+		// n = 200; 
+	    // Error: The final local variable n cannot be assigned. 
+		//        It must be blank and not using a compound assignment
+	    
+		System.out.println("n is: "+n);
+	    j += n;
+		System.out.println("Value of j is: "+ j);
+	}
+}

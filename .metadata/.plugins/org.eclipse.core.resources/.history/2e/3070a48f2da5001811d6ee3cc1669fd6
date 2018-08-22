@@ -1,0 +1,9 @@
+package abs_concepts;
+
+public abstract class Base {
+	abstract void func();
+	
+	Base(){
+		System.out.println("Constructor is called in Base... ");
+	}
+}
