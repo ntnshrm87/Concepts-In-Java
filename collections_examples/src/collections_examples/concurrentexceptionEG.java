@@ -2,6 +2,7 @@ package collections_examples;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class concurrentexceptionEG {
 	// Java Collection classes are fail-fast, which means if 
@@ -17,7 +18,8 @@ public class concurrentexceptionEG {
 	// function checkForComodification().
 	
 	public static void main(String[] args) {
-		List<String> myList = new ArrayList<String>();
+		//List<String> myList = new ArrayList<String>();
+		List<String> myList = new CopyOnWriteArrayList<String>();
 		myList.add("N");
 		myList.add("I");
 		myList.add("T");
